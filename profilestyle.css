@@ -35,6 +35,11 @@ div {
     margin-left:15px;
   }
 
+  img{
+    width: 400px;
+    height: auto;
+  }
+
 .box-1 h4 {
     font-family:  Tahoma;
     font-weight: 800;

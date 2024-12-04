@@ -8,37 +8,39 @@
     <link rel="stylesheet" href="profilestyle.css">
     <title>My Profile</title>
 </head>
-<body>
+<body class="container">
     <nav>
-    <a href="index.html">Go to profile</a>
-    <a href="projects.html">Go to projects</a>
-    <a href="https://www.linkedin.com/in/josh-boothman-466573272/" target="_blank">My LinkedIn</a>
-    </nav>
+        <ul>
+            <li><a href="index.html">Go to profile</a></li>
+            <li><a href="projects.html">Go to projects</a></li>
+            <li> <a href="https://www.linkedin.com/in/josh-boothman-466573272/" target="_blank">My LinkedIn</a></li>
+        </ul>
 <header>
     <img alt="My picture" src="PXL_20241028_162244565.jpg">
     <h1>Joshua Boothman</h1>
     <h2>My Profile</h2>
     <p><em>Website</em><strong>Demo</strong></p>
 </header>
-<section>
+<section class="box-1">
     <h4>My skills</h4>
     <p>CSharp</p>
 </section>
-<section>
+<section class="box-1">
     <h4>My Hobbies</h4>
         <ul>
             <li>Gaming</li>
+            <li>guitar</li>
         </ul>
 </section>
-<section>
+<section class="box-1">
     <h4>My Goals</h4>
         <ol>
             <li>Finish training</li>
         </ol>
 </section>
-<section>
+<section class="box-2">
     <h3>Search for News</h3>
-    <form action="https://www.bbc.co.uk/search">
+    <form id="myform" action="https://www.bbc.co.uk/search">
         <label for="mysearch" search for></label>
         <input id="mysearch" type="text" value="Hull" name="q">
         <input type="submit" class="button" value="Submit">
